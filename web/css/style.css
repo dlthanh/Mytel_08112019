@@ -210,7 +210,9 @@ img {
     justify-content: space-between;
     -webkit-justify-content: space-between;
 }
-
+.mobile {
+    display: none;
+}
 @media (max-width: 992px) {
     .w980, .w660 {
         width: 100%;
@@ -225,5 +227,11 @@ img {
         padding: 0 15px;
         font-size: 16px;
         line-height: 24px;
+    }
+    .web {
+        display: none;
+    }
+    .mobile {
+        display: block;
     }
 }
